@@ -13,3 +13,6 @@ gem "wdm", "0.1.0", :platforms => [:mswin, :mingw]
 
 # windows does not come with time zone data
 gem "tzinfo-data", "1.2015.1", platforms: [:mswin, :mingw]
+
+# Deploy to GitHub Pages
+gem "middleman-deploy", "1.0.0"

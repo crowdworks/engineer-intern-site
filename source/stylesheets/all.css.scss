@@ -1,6 +1,12 @@
 $navbar-border-color: #ccc;
 $corporate-color: #0068b7;
 
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacityIE: $opacity * 100;
+  filter: alpha(opacity=$opacityIE);
+}
+
 html, body {
   font-family: Avenir, "Helvetica neue", "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
   width: 100%;
@@ -14,15 +20,21 @@ h1 > small {
 }
 
 h2 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 h3 {
   color: $corporate-color;
   line-height: 1.4;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 1.6rem;
+  line-height: 3rem;
 }
 
 #navigation {
@@ -51,6 +63,31 @@ h3 {
     .navbar-collapse {
       text-align: center;
     }
+  }
+}
+
+#intern-program {
+  figure {
+    position: relative;
+    overflow: hidden;
+  }
+  figcaption {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: $corporate-color;
+    color: #fff;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 2rem;
+    padding: 8px 16px;
+    margin: 0;
+    width: 100%;
+    @include opacity(0.9);
+  }
+  p {
+    margin: 20px 0;
   }
 }
 

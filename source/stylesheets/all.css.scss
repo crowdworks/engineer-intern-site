@@ -5,6 +5,22 @@ html, body {
   height: 100%;
 }
 
+h1 > small {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 #navigation {
   a {
     color: #333;

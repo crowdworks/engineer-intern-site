@@ -7,25 +7,28 @@ header.text-center
   p プログラミングスキルを使ってサービスの課題を解決
 
 #navigation
-  nav.nav-bar.navbar-custom role="navigation"
-    .container
-      .row
-        .col-md-12
-          .navbar-header
-            button.navbar-toggle type="button" data-toggle="collapse" data-target="#menu"
-            i.fa.fa-bars
-          #menu.collapse.navbar-collapse
-            ul.nav.navbar-nav
-              li.active
-                a href="#company-guide" 会社案内
-              li
-                a href="#intern-program" インターンプログラム
-              li
-                a href="#introduction" チーム紹介
-              li
-                a href="#participation-method" 参加方法
-              li
-                a href="#entry" エントリー
+  nav.nav-bar.navbar-default role="navigation"
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#menu"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="#"
+          == image_tag 'crowdworks-logo-small.png'
+      #menu.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li
+            a href="#company-guide" 会社案内
+          li
+            a href="#intern-program" インターンプログラム
+          li
+            a href="#introduction" チーム紹介
+          li
+            a href="#participation-method" 参加方法
+          li
+            a href="#entry" エントリー
 
 section#company-guide
   .container

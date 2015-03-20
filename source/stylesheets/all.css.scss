@@ -21,8 +21,8 @@ h2 {
 h3 {
   color: $corporate-color;
   line-height: 1.4;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 #navigation {
@@ -52,4 +52,8 @@ h3 {
       text-align: center;
     }
   }
+}
+
+.row {
+  margin-bottom: 40px;
 }

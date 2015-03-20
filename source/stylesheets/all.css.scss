@@ -1,6 +1,8 @@
 $navbar-border-color: #ccc;
+$corporate-color: #0068b7;
 
 html, body {
+  font-family: Avenir, "Helvetica neue", "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
   width: 100%;
   height: 100%;
 }
@@ -17,6 +19,8 @@ h2 {
 }
 
 h3 {
+  color: $corporate-color;
+  line-height: 1.4;
   margin-top: 30px;
   margin-bottom: 30px;
 }

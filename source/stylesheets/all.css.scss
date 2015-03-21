@@ -37,6 +37,26 @@ p {
   line-height: 3rem;
 }
 
+header {
+  background-image: url(/images/top.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  padding-top: 185px;
+
+  @media (max-width: 900px) {
+    background-size: cover;
+  }
+  @media (min-width: 901px) {
+    background-size: contain;
+  }
+  h1 {
+    margin: 0;
+    background-color: rgba(256, 256, 256, 0.7);
+    padding: 30px 10px 10px;
+  }
+}
+
 .row {
   margin-bottom: 40px;
 }
@@ -72,8 +92,6 @@ p {
     border-bottom: 1px solid $navbar-border-color;
   }
   .navbar-brand {
-    float: none;
-
     img {
       margin-top: -5px;
       height: 30px;
@@ -81,14 +99,14 @@ p {
     }
   }
   @media (min-width: 768px) {
-    .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top;
-    }
-    .navbar-collapse {
-      text-align: center;
-    }
+    //    .navbar-nav {
+    //      display: inline-block;
+    //      float: none;
+    //      vertical-align: top;
+    //    }
+    //    .navbar-collapse {
+    //      text-align: center;
+    //    }
   }
 }
 

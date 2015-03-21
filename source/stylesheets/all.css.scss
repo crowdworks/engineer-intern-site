@@ -60,6 +60,10 @@ p {
 }
 
 #navigation {
+  width: 100%;
+  background-color: white;
+  z-index: 900;
+
   a {
     color: #333;
   }

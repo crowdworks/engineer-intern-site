@@ -37,6 +37,28 @@ p {
   line-height: 3rem;
 }
 
+.row {
+  margin-bottom: 40px;
+}
+
+.right-arrow {
+  position: relative;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-left-color: $corporate-color;
+}
+
+.right-arrow:after {
+  position: absolute;
+  content: '';
+  top: -8px;
+  left: -32px;
+  width: 16px;
+  height: 16px;
+  background: $corporate-color;
+}
+
 #navigation {
   a {
     color: #333;
@@ -99,23 +121,44 @@ p {
 
 #how-to-apply {
   .circle {
-    display: table-cell;
     width: 200px;
     height: 200px;
-    background-color: $corporate-color;
+    background-color: white;
+    border: 4px solid $corporate-color;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    small {
-      font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+
+    h3 {
+      display: table-cell;
+      width: 192px;
+      height: 192px;
+      text-align: center;
+      vertical-align: middle;
+      color: $corporate-color;
+      font-size: 18px;
+      font-weight: bold;
+      small {
+        color: $corporate-color;
+        display: block;
+        font-weight: normal;
+      }
+    }
+
+    &.inverse {
+      background-color: $corporate-color;
+      border: 4px solid white;
+
+      h3 {
+        color: white;
+      }
     }
   }
+
+  .right-arrow {
+    margin: 80px auto;
+  }
 }
-.row {
-  margin-bottom: 40px;
-}
+

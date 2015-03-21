@@ -57,7 +57,7 @@ header {
   }
 }
 
-.row {
+.row, .row-fluid {
   margin-bottom: 40px;
 }
 
@@ -99,14 +99,9 @@ header {
     }
   }
   @media (min-width: 768px) {
-    //    .navbar-nav {
-    //      display: inline-block;
-    //      float: none;
-    //      vertical-align: top;
-    //    }
-    //    .navbar-collapse {
-    //      text-align: center;
-    //    }
+    .container-fluid {
+      width: 830px;
+    }
   }
 }
 

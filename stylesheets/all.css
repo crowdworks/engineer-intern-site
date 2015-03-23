@@ -31,7 +31,7 @@ p {
 
 /* line 40, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 header {
-  background-image: url("/images/top.jpg");
+  background-image: url("../images/top.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;

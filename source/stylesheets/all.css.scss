@@ -1,5 +1,6 @@
 $navbar-border-color: #ccc;
 $corporate-color: #0068b7;
+$header-navbar-height: 75px;
 
 @mixin opacity($opacity) {
   opacity: $opacity;
@@ -43,6 +44,7 @@ header {
   background-position: center;
   height: 500px;
   padding-top: 185px;
+  margin-top: $header-navbar-height;
   margin-bottom: 10px;
 
   @media (max-width: 900px) {
@@ -51,10 +53,19 @@ header {
   @media (min-width: 901px) {
     background-size: contain;
   }
+
   h1 {
     margin: 0;
     background-color: rgba(256, 256, 256, 0.7);
     padding: 30px 10px 10px;
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    height: $header-navbar-height;
   }
 }
 
@@ -91,18 +102,6 @@ header {
   .navbar-default {
     background-color: #fff;
     border-bottom: 1px solid $navbar-border-color;
-  }
-  .navbar-brand {
-    img {
-      margin-top: -5px;
-      height: 30px;
-      width: 127px;
-    }
-  }
-  @media (min-width: 768px) {
-    .container-fluid {
-      width: 830px;
-    }
   }
 }
 

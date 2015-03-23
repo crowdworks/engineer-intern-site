@@ -60,12 +60,16 @@ header {
     padding: 30px 10px 10px;
   }
 
-  .nav-bar {
+  .header-top {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     background: white;
     height: $header-navbar-height;
+    border-top: 3px solid $corporate-color;
+    padding-top: 15px;
+    padding-left: 22px;
   }
 }
 
@@ -101,7 +105,7 @@ header {
   }
 
   .navbar-default {
-    background-color: #fff;
+    background-color: white;
     border-bottom: 1px solid $navbar-border-color;
   }
 
@@ -117,6 +121,10 @@ header {
       }
     }
   }
+}
+
+#company-guide {
+//  z-index: -1;
 }
 
 #intern-program {

@@ -132,6 +132,7 @@ header {
 
 #intern-program {
   figure {
+    display: inline-block;
     position: relative;
     overflow: hidden;
   }
@@ -144,7 +145,7 @@ header {
     color: #fff;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 8px 16px;
     margin: 0;
     width: 100%;
@@ -160,6 +161,8 @@ header {
   h3 {
     text-align: center;
   }
+
+
 }
 
 #how-to-apply {

@@ -99,9 +99,23 @@ header {
   a {
     color: #333;
   }
+
   .navbar-default {
     background-color: #fff;
     border-bottom: 1px solid $navbar-border-color;
+  }
+
+  @media (min-width: 768px) {
+    .navbar {
+      .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: middle;
+      }
+      .navbar-collapse {
+        text-align: center;
+      }
+    }
   }
 }
 

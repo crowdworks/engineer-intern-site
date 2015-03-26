@@ -158,13 +158,25 @@ header {
 
 #intern-program {
   figure {
-    h3 {
+    margin-bottom: 4rem;
+
+    .with-arrow::after {
+      position: absolute;
+      top: 90px;
+      left: -7px;
+      content: "▶";
       color: $corporate-color;
-      font-size: 1.6rem;
-      margin: 10px 0;
     }
-    p {
-      margin: 0;
+
+    figcaption {
+      h3 {
+        color: $corporate-color;
+        font-size: 1.6rem;
+        margin: 10px 0;
+      }
+      p {
+        margin: 0;
+      }
     }
   }
 }

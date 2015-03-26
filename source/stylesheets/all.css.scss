@@ -59,18 +59,6 @@ header {
     background-color: rgba(256, 256, 256, 0.7);
     padding: 30px 10px 10px;
   }
-
-  .header-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: white;
-    height: $header-navbar-height;
-    border-top: 3px solid $corporate-color;
-    padding-top: 15px;
-    padding-left: 22px;
-  }
 }
 
 .row, .row-fluid {
@@ -104,22 +92,15 @@ header {
     color: #333;
   }
 
+  .navbar-brand {
+    img {
+      height: 30px;
+      margin-top: -5px;
+    }
+  }
   .navbar-default {
     background-color: white;
     border-bottom: 1px solid $navbar-border-color;
-  }
-
-  @media (min-width: 768px) {
-    .nav-bar {
-      .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: middle;
-      }
-      .navbar-collapse {
-        text-align: center;
-      }
-    }
   }
 }
 

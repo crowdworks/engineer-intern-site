@@ -49,6 +49,8 @@ header {
   background-position: center;
   height: 500px;
   padding-top: 185px;
+  padding-left: 0;
+  padding-right: 0;
   margin-top: 40px;
   margin-bottom: 0;
 
@@ -56,7 +58,7 @@ header {
     background-size: cover;
   }
   @media (min-width: 901px) {
-    background-size: contain;
+    background-size: cover;
   }
 
   h1 {
@@ -71,10 +73,10 @@ header {
   width: 0;
   height: 0;
   border: 16px solid transparent;
-  @media (max-width: 900px) {
-    border-bottom-color: $corporate-color;
+  @media (max-width: 1199px) {
+    border-top-color: $corporate-color;
   }
-  @media (min-width: 901px) {
+  @media (min-width: 1200px) {
     border-left-color: $corporate-color;
   }
 }
@@ -82,11 +84,11 @@ header {
 .right-arrow:after {
   position: absolute;
   content: '';
-  @media (max-width: 900px) {
+  @media (max-width: 1199px) {
     top: -32px;
     left: -8px;
   }
-  @media (min-width: 901px) {
+  @media (min-width: 1200px) {
     top: -8px;
     left: -32px;
   }
@@ -175,12 +177,14 @@ header {
       border-radius: 0;
     }
 
-    .with-arrow::after {
-      position: absolute;
-      top: 90px;
-      left: -7px;
-      content: "▶";
-      color: $corporate-color;
+    @media (min-width: 992px) {
+      .with-arrow::after {
+        position: absolute;
+        top: 90px;
+        left: -7px;
+        content: "▶";
+        color: $corporate-color;
+      }
     }
 
     figcaption {

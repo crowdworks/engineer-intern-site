@@ -21,6 +21,9 @@ h1 > small {
 }
 
 h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  border-bottom: 1px solid $navbar-border-color;
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -130,6 +133,14 @@ header {
         }
       }
     }
+  }
+}
+
+#description {
+  h2 {
+    font-size: 3.2rem;
+    text-align: center;
+    border: none;
   }
 }
 

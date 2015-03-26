@@ -71,14 +71,25 @@ header {
   width: 0;
   height: 0;
   border: 16px solid transparent;
-  border-left-color: $corporate-color;
+  @media (max-width: 900px) {
+    border-bottom-color: $corporate-color;
+  }
+  @media (min-width: 901px) {
+    border-left-color: $corporate-color;
+  }
 }
 
 .right-arrow:after {
   position: absolute;
   content: '';
-  top: -8px;
-  left: -32px;
+  @media (max-width: 900px) {
+    top: -32px;
+    left: -8px;
+  }
+  @media (min-width: 901px) {
+    top: -8px;
+    left: -32px;
+  }
   width: 16px;
   height: 16px;
   background: $corporate-color;
@@ -159,6 +170,10 @@ header {
 #intern-program {
   figure {
     margin-bottom: 4rem;
+
+    img {
+      border-radius: 0;
+    }
 
     .with-arrow::after {
       position: absolute;

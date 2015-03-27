@@ -278,3 +278,32 @@ header {
     margin: 80px auto;
   }
 }
+
+//
+// Override Slick Style
+//
+#introduction-photos {
+  .introduction-photo {
+    img {
+      width: 200px;
+      height: 200px;
+      margin-top: 25px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .introduction-photo.slick-center {
+    img {
+      width: 250px;
+      height: 250px;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.slick-prev:before, .slick-next:before {
+  color: $corporate-color;
+}

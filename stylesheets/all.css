@@ -235,3 +235,26 @@ header {
 /* line 277, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #how-to-apply .right-arrow {
   margin: 80px auto; }
+
+/* line 287, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+#introduction-photos .introduction-photo img {
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+/* line 298, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+#introduction-photos .introduction-photo.slick-center img {
+  width: 250px;
+  height: 250px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+/* line 309, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+.slick-prev:before, .slick-next:before {
+  color: #0068b7; }

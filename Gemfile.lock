@@ -33,6 +33,7 @@ GEM
     eventmachine (1.0.7)
     execjs (2.4.0)
     ffi (1.9.8)
+    gemoji (2.1.0)
     haml (4.0.6)
       tilt
     hike (1.2.3)
@@ -74,6 +75,9 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-gemoji (0.0.4)
+      gemoji (~> 2.1)
+      middleman (~> 3.3)
     middleman-livereload (3.4.2)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -136,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.3.10)
   middleman-deploy (= 1.0.0)
+  middleman-gemoji (= 0.0.4)
   middleman-livereload (= 3.4.2)
   slim (= 3.0.3)
   tzinfo-data (= 1.2015.1)

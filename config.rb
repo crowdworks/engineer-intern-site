@@ -39,6 +39,9 @@ config[:file_watcher_ignore] += [ /.idea\// ]
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Emoji
+activate :gemoji, size: 20
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload

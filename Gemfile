@@ -16,3 +16,6 @@ gem "tzinfo-data", "1.2015.1", platforms: [:mswin, :mingw]
 
 # Deploy to GitHub Pages
 gem "middleman-deploy", "1.0.0"
+
+# Emoji
+gem "middleman-gemoji", "0.0.4"

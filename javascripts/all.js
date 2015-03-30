@@ -188,14 +188,6 @@
           centerPadding: '5px',
           slidesToShow: 1
         }
-      }, {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '5px',
-          slidesToShow: 1
-        }
       }
     ]
   });
@@ -205,7 +197,8 @@
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    asNavFor: '#introduction-photos'
+    asNavFor: '#introduction-photos',
+    mobileFirst: true
   });
 
 }).call(this);

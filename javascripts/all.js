@@ -196,7 +196,6 @@
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    fade: true,
     asNavFor: '#introduction-photos',
     mobileFirst: true
   });

@@ -7,6 +7,7 @@ $('#introduction-texts').slick
   slidesToShow: 1
   slidesToScroll: 1
   arrows: false
+  swipe: false
   asNavFor: '#introduction-photos'
 
 $('#introduction-photos').slick

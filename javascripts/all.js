@@ -173,6 +173,13 @@
     topSpacing: 0
   });
 
+  $('#introduction-texts').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    asNavFor: '#introduction-photos'
+  });
+
   $('#introduction-photos').slick({
     centerMode: true,
     centerPadding: '10px',
@@ -190,14 +197,6 @@
         }
       }
     ]
-  });
-
-  $('#introduction-texts').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    asNavFor: '#introduction-photos',
-    mobileFirst: true
   });
 
 }).call(this);

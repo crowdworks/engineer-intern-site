@@ -40,7 +40,7 @@ pre {
 
 /* line 50, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 header {
-  background-image: url("../images/header.png");
+  background-image: url("../images/header.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
@@ -176,63 +176,72 @@ footer {
       color: #0068b7; } }
   /* line 200, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #intern-program figure figcaption h3 {
+    font-weight: bold;
     color: #0068b7;
     font-size: 1.6rem;
     margin: 10px 0; }
-  /* line 205, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  /* line 206, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #intern-program figure figcaption p {
     margin: 0; }
 
-/* line 213, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 214, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #introduction h3 {
   text-align: center;
-  font-weight: bold; }
-/* line 218, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  font-weight: bold;
+  vertical-align: middle; }
+  /* line 219, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  #introduction h3 .title {
+    display: block;
+    font-size: 1.8rem;
+    margin-right: 1rem; }
+/* line 226, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #introduction h4 {
   font-weight: bold;
-  margin-top: 2rem; }
-  /* line 222, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  text-indent: -1.5rem; }
+  /* line 232, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #introduction h4:before {
     content: "● "; }
 
-/* line 229, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 239, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #detail h3 {
   font-size: 2rem; }
-/* line 233, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 243, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #detail ul {
   font-size: 1.6rem;
   padding-left: 2rem; }
-/* line 239, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 249, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #detail ul.notice li {
   list-style-type: none;
   text-indent: -1rem; }
-  /* line 243, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  /* line 253, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #detail ul.notice li:before {
     display: inline;
     content: "※ "; }
-/* line 251, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 261, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #detail .contents .row {
   margin-bottom: 4rem; }
 
-/* line 257, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 267, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #schedule-list {
   font-size: 1.6rem; }
-  /* line 260, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  /* line 270, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #schedule-list dt {
     font-weight: normal;
     width: 5rem; }
-  /* line 264, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  /* line 274, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #schedule-list dd {
     margin-left: 6rem; }
 
-/* line 270, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 280, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #how-to-apply h3 {
   margin-top: 3rem;
   margin-bottom: 1rem; }
-/* line 275, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 285, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #how-to-apply .diagram {
   margin-bottom: 6rem; }
-/* line 279, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 289, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #how-to-apply .circle {
   width: 200px;
   height: 200px;
@@ -243,7 +252,7 @@ footer {
   -moz-border-radius: 50%;
   margin-left: auto;
   margin-right: auto; }
-  /* line 290, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  /* line 300, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #how-to-apply .circle h3 {
     display: table-cell;
     width: 192px;
@@ -253,31 +262,31 @@ footer {
     color: #0068b7;
     font-size: 18px;
     font-weight: bold; }
-  /* line 301, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+  /* line 311, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
   #how-to-apply .circle.inverse {
     background-color: #0068b7;
     border: 4px solid white; }
-    /* line 305, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+    /* line 315, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
     #how-to-apply .circle.inverse h3 {
       color: white; }
-/* line 311, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 321, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #how-to-apply .right-arrow {
   margin: 80px auto; }
 
-/* line 317, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 327, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #entry h3 {
   margin-top: 4rem; }
-/* line 321, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 331, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #entry pre.header {
   margin-bottom: 0;
   border-radius: 3px 3px 0 0; }
-/* line 325, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 335, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #entry pre.body-response {
   margin-top: -1px;
   border-radius: 0 0 3px 3px;
   background-color: #fcfcfc; }
 
-/* line 337, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 347, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #introduction-photos .introduction-photo img {
   width: 200px;
   height: 200px;
@@ -286,7 +295,7 @@ footer {
   margin-right: auto;
   opacity: 0.5;
   filter: alpha(opacity=50); }
-/* line 348, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 358, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 #introduction-photos .introduction-photo.slick-center img {
   width: 250px;
   height: 250px;
@@ -296,6 +305,6 @@ footer {
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 359, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
+/* line 369, /Users/hideki/repos/github.com/crowdworks/engineer-intern-site/source/stylesheets/all.css.scss */
 .slick-prev:before, .slick-next:before {
   color: #0068b7; }

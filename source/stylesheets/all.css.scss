@@ -144,12 +144,20 @@ footer {
       &:first-child {
         border-left: 1px solid $navbar-border-color;
       }
+
       li {
         border-right: 1px solid $navbar-border-color;
+        padding: 10px 20px;
 
         a {
-          height: 40px;
-          padding: 10px 20px;
+          padding: 0 0 2px;
+        }
+
+        &.active {
+          a {
+            border-bottom: 3px solid $corporate-color;
+            background: none;
+          }
         }
       }
     }

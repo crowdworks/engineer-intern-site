@@ -223,6 +223,7 @@ footer {
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
+    margin-bottom: 4rem;
 
     .title {
       display: block;
@@ -241,6 +242,16 @@ footer {
       content: "● ";
     }
   }
+}
+
+#introduction-texts {
+  .introduction-text {
+    p {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
 }
 
 #detail {

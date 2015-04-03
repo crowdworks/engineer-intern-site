@@ -3,6 +3,19 @@
 $("#navigation").sticky
   topSpacing: 0
 
+smoothScrollTo = (position, speed = 700) ->
+  $('body, html').animate scrollTop: position, speed
+
+$('#navigation .navbar-brand').click (event) ->
+  event.preventDefault()
+  smoothScrollTo 0, 1000
+
+$('#menu .navbar-nav li > a').click (event) ->
+  event.preventDefault()
+  link = $(this).attr 'href'
+  position = $(link).offset().top
+  smoothScrollTo position
+
 $('#introduction-texts').slick
   slidesToShow: 1
   slidesToScroll: 1

@@ -14,12 +14,6 @@ html, body {
   height: 100%;
 }
 
-h1 > small {
-  display: block;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
 h2 {
   font-size: 2.6rem;
   font-weight: bold;
@@ -52,7 +46,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
-  padding-top: 185px;
+  padding-top: 175px;
   padding-left: 0;
   padding-right: 0;
   margin-top: 40px;
@@ -67,8 +61,24 @@ header {
 
   h1 {
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.75);
     padding: 30px 10px 10px;
+    font-size: 4.8rem;
+    text-shadow: 1px 1px 5px #fff;
+
+    small {
+      font-size: 3rem;
+      color: #000;
+      display: block;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      &:before {
+        content: "- ";
+      }
+      &:after {
+        content: " -";
+      }
+    }
   }
 }
 
@@ -117,7 +127,7 @@ footer {
 
   .nav-bar {
     @media (min-width: $grid-float-breakpoint) {
-      width: 910px;
+      width: 950px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -166,8 +176,8 @@ footer {
 
 #description {
   h2 {
-    font-size: 3.2rem;
-    text-align: center;
+    font-weight: normal;
+    font-size: 2.6rem;
     border: none;
   }
 
@@ -262,9 +272,13 @@ footer {
   ul {
     font-size: 1.6rem;
     padding-left: 2rem;
+    margin-top: 0.5rem;
   }
 
   ul.notice {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
     li {
       list-style-type: none;
       text-indent: -1rem;
@@ -285,6 +299,7 @@ footer {
 
 #schedule-list {
   font-size: 1.6rem;
+  margin-top: 0.5rem;
 
   dt {
     font-weight: normal;

@@ -39,3 +39,6 @@ $('#introduction-photos').slick
         slidesToShow: 1
     }
   ]
+
+$('img.lazy').lazyload
+  effect: "fadeIn"

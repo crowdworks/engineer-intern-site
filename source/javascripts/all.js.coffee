@@ -1,5 +1,7 @@
 #= require_tree .
 
+new WOW({}).init()
+
 $("#navigation").sticky
   topSpacing: 0
 

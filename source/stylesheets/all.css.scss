@@ -302,11 +302,25 @@ footer {
   margin-top: 0.5rem;
 
   dt {
+    text-align: left;
     font-weight: normal;
     width: 5rem;
   }
   dd {
     margin-left: 6rem;
+  }
+}
+
+#time-table {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+
+  dt {
+    font-weight: normal;
+    width: 6rem;
+  }
+  dd {
+    margin-left: 7rem;
   }
 }
 

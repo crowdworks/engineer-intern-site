@@ -78,6 +78,13 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-27177676-8'
+  ga.domain_name = 'crowdworks.jp'
+  ga.development = false
+  ga.minify = true
+end
+
 # Deploy to GitHub Pages
 activate :deploy do |deploy|
   deploy.method = :git

@@ -19,3 +19,6 @@ gem "middleman-deploy", "1.0.0"
 
 # Emoji
 gem "middleman-gemoji", "0.0.4"
+
+# Google Analytics
+gem "middleman-google-analytics", "1.1.0"

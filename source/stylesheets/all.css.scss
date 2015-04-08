@@ -401,6 +401,35 @@ footer {
   }
 }
 
+#sns-buttons {
+  margin-top: 60px;
+  text-align: center;
+
+  .fb-like, .twitter-share-button, #___plus_0, .hatena-bookmark-button-frame, .pocket-btn {
+    display: inline-block;
+  }
+
+  .fb-like, .pocket-btn {
+    vertical-align: top;
+  }
+
+  .fb-like {
+    margin-right: 20px;
+  }
+
+  .twitter-share-button {
+    margin-right: -20px;
+  }
+
+  #___plus_0 {
+    margin-right: 20px !important;
+  }
+
+  .hatena-bookmark-button-frame {
+    margin-right: 20px;
+  }
+}
+
 //
 // Override Slick Style
 //

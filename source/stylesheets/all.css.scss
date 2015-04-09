@@ -151,20 +151,30 @@ footer {
       margin-bottom: 8px;
 
       &:first-child {
-        border-left: 1px solid $navbar-border-color;
+        @media (min-width: $grid-float-breakpoint) {
+          border-left: 1px solid $navbar-border-color;
+        }
       }
 
       li {
-        border-right: 1px solid $navbar-border-color;
+        @media (min-width: $grid-float-breakpoint) {
+          border-right: 1px solid $navbar-border-color;
+        }
         padding: 10px 20px;
 
         a {
           padding: 0 0 2px;
+
+          &:hover {
+            color: $corporate-color;
+          }
         }
 
         &.active {
           a {
-            border-bottom: 3px solid $corporate-color;
+            @media (min-width: $grid-float-breakpoint) {
+              border-bottom: 3px solid $corporate-color;
+            }
             background: none;
           }
         }

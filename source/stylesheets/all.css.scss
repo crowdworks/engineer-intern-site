@@ -1,10 +1,11 @@
 //= require "animate.css/animate"
 
+$grid-float-breakpoint: 950px;
+
 @import "bootstrap/bootstrap";
 
 $navbar-border-color: #ccc;
 $corporate-color: #0068b7;
-$grid-float-breakpoint: 768px;
 
 @mixin opacity($opacity) {
   opacity: $opacity;
@@ -125,7 +126,7 @@ footer {
 
   .nav-bar {
     @media (min-width: $grid-float-breakpoint) {
-      width: 950px;
+      width: $grid-float-breakpoint;
       margin-left: auto;
       margin-right: auto;
     }

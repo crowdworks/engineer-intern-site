@@ -8,6 +8,9 @@ $("#navigation").sticky
 smoothScrollTo = (position, speed = 700) ->
   $('body, html').animate scrollTop: position, speed
 
+$('#navigation a').on 'click',  ->
+  $('#navigation .navbar-collapse').collapse('hide')
+
 $('#navigation .navbar-brand').on 'click', (event) ->
   event.preventDefault()
   smoothScrollTo 0, 1000

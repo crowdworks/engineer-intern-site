@@ -8,11 +8,11 @@ $("#navigation").sticky
 smoothScrollTo = (position, speed = 700) ->
   $('body, html').animate scrollTop: position, speed
 
-$('#navigation .navbar-brand').click (event) ->
+$('#navigation .navbar-brand').on 'click', (event) ->
   event.preventDefault()
   smoothScrollTo 0, 1000
 
-$('#menu .navbar-nav li > a').click (event) ->
+$('#menu .navbar-nav li > a').on 'click', (event) ->
   event.preventDefault()
   link = $(this).attr 'href'
   position = $(link).offset().top

@@ -18,7 +18,7 @@ gem "tzinfo-data", "1.2015.1", platforms: [:mswin, :mingw]
 gem "middleman-deploy", "1.0.0"
 
 # Emoji
-gem "middleman-gemoji", "0.0.4"
+gem "middleman-gemoji", "0.0.5"
 
 # Google Analytics
 gem "middleman-google-analytics", "1.1.0"
